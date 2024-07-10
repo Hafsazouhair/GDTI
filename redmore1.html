@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-DZBEehqCkpE2b/fk4j+Z+Yb7y3b8NK+GKmifek8ZyOV2kSechI1CL6Jg2iS2eYI/0K1GjJZbd8BbhZfJ8Z1pKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+
+<body class="flex flex-col min-h-screen">
+
+         <!-- navbar -->
+    <nav class="flex justify-between px-6 py-4 md:px-24 md:py-6 items-center bg-gray-200">
+        <h1 class="text-lg md:text-xl text-gray-800 font-bold">PrimeWear</h1>
+        <div class="flex items-center">
+            <ul class="hidden md:flex items-center space-x-4 md:space-x-8">
+                <a href="./index.html"><li class="font-semibold text-gray-700">Home</li></a>
+                <a href=""><li class="font-semibold text-gray-700">Shop</li></a>
+                <a href="./blog.html">  <li class="font-semibold text-gray-700">Blog</li></a>
+                    <a href="./about.html"> <li class="font-semibold text-gray-700">About</li></a>
+               <a href="./contact.html" <li class="font-semibold text-gray-700">Contact</li></a>
+                <li>
+                    <a href="#" class="group -m-4 flex items-center p-2">
+                        <svg class="h-6 w-6 flex-shrink-0 text-gray-900 group-hover:text-gray-500" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                        </svg>
+                        <span class="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800">0</span>
+                        <span class="sr-only">items in cart, view bag</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="md:hidden">
+                <!-- Mobile menu button -->
+                <button id="menu-button" class="text-gray-700 focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+      <!-- Mobile menu, hidden by default -->
+      <div id="mobile-menu" class="hidden md:hidden">
+        <ul class="flex flex-col items-center space-y-4">
+            <li class="font-semibold text-gray-700">Home</li>
+            <li class="font-semibold text-gray-700">Shop</li>
+            <li class="font-semibold text-gray-700">Blog</li>
+            <li class="font-semibold text-gray-700">About</li>
+            <li class="font-semibold text-gray-700">Contact</li>
+        </ul>
+    </div>
+                <!-- la fin de nav -->
+    <div class="bg-cover bg-center py-16 md:py-28" style="background-image: url('img/blog/b3.jpg');">
+        <div class="flex flex-col gap-3">
+            <p class="text-3xl font-bold text-center text-white">
+                Classic Men's T-Shirt
+            </p>
+        </div>
+    </div>
+    
+
+  
+      
+
+    <!-- content -->
+    <div class="flex-1 pt-16">
+        <section class="flex flex-col items-center justify-center">
+            <h1 class="text-white text-4xl font-bold text-green-500">Details for this Product</h1>
+            <p class="mt-6 text-black  text-xl font-semibold">
+                Our classic Men's T-Shirt offers premium comfort and style with a modern fit,<br>
+                available in various colors. Discover our Stylish Women's T-Shirt, made from <br>
+                soft, breathable fabric with a flattering fit and versatile design in vibrant colors.
+            </p>
+            <h6 class="mt-6 text-black text-2xl font-semibold">Rating for product > <span class="text-green-500">classic Men’s T-shirt</span></h6>
+            <div class="flex text-ms mt-6 gap-10 items-center mt-10">
+                <img src="https://img.icons8.com/?size=80&id=19417&format=png&color=000000" alt="Rating Icon" class="w-14 h-14 mr-1" />
+                <img src="https://img.icons8.com/?size=80&id=19417&format=png&color=000000" alt="Rating Icon" class="w-14 h-14 mr-1" />
+                <img src="https://img.icons8.com/?size=80&id=19417&format=png&color=000000" alt="Rating Icon" class="w-14 h-14 mr-1" />
+                <img src="https://img.icons8.com/?size=80&id=19417&format=png&color=000000" alt="Rating Icon" class="w-14 h-14 mr-1" />
+            </div>
+            
+        </section>
+        
+        
+        
+        <div class="w-full bg-cover bg-center mt-6" style="height:20rem; background-image: url('img/banner/b2.jpg');">
+            <div class="flex items-center justify-center h-full w-full bg-gray-800 bg-opacity-50">
+                <div class="text-center">
+                    <h6 class="text-white text-xl font-semibold uppercase md:text-2xl">Repair Services</h6>
+                    <h1 class="text-white text-2xl mt-6 font-semibold uppercase md:text-3xl">Up to <span class="underline text-red-600">50% Off</span>-All t-Shirts & Accessories </h1>
+                    <button class="mt-6 px-14 py-6 bg-white text-black text-xl uppercase font-medium rounded hover:bg-gray-100 focus:outline-none focus:bg-gray-100">Explore More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /content -->
+
+     <!-- footer -->
+     <footer class="mt-24 px-4 divide-y bg-gray-200 dark:text-gray-800 shadow-lg ">
+        <div class="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
+            <div class="lg:w-1/3">
+                <a rel="noopener noreferrer" href="#" class="flex justify-center space-x-3 lg:justify-start">
+                    <div class="flex items-center justify-center w-12 h-12 rounded-full dark:bg-violet-600">
+                       
+                    </div>
+                    <span class="self-center text-2xl font-semibold">PrimeWear</span>
+                </a>
+            </div>
+            <div class="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
+                <div class="space-y-3">
+                    <h3 class="tracking-wide uppercase dark:text-gray-900">Product</h3>
+                    <ul class="space-y-1">
+                        <li><a rel="noopener noreferrer" href="#">Features</a></li>
+                        <li><a rel="noopener noreferrer" href="#">Integrations</a></li>
+                        <li><a rel="noopener noreferrer" href="#">Pricing</a></li>
+                        <li><a rel="noopener noreferrer" href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="space-y-3">
+                    <h3 class="tracking-wide uppercase dark:text-gray-900">Company</h3>
+                    <ul class="space-y-1">
+                        <li><a rel="noopener noreferrer" href="#">Privacy</a></li>
+                        <li><a rel="noopener noreferrer" href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="space-y-3">
+                    <h3 class="uppercase dark:text-gray-900">Developers</h3>
+                    <ul class="space-y-1">
+                        <li><a rel="noopener noreferrer" href="#">Public API</a></li>
+                        <li><a rel="noopener noreferrer" href="#">Documentation</a></li>
+                        <li><a rel="noopener noreferrer" href="#">Guides</a></li>
+                    </ul>
+                </div>
+                <div class="space-y-3">
+                    <div class="uppercase dark:text-gray-900"></div>
+                    <div class="flex justify-start space-x-3">
+                        <a rel="noopener noreferrer" href="#" title="Facebook" class="flex items-center p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" class="w-5 h-5 dark:text-gray-800">
+                                <path d="M20.184 10.816h-2.644c-.485 0-.88.395-.88.88v2.643h3.52V16h-3.52v8.64h-3.52v-8.64h-2.64v-2.64h2.64v-2.644c0-1.445 1.175-2.62 2.62-2.62h2.644v2.62z"></path>
+                            </svg>
+                        </a>
+                        <a rel="noopener noreferrer" href="#" title="Twitter" class="flex items-center p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" class="w-5 h-5 dark:text-gray-800">
+                                <path d="M29.46 7.03a12.21 12.21 0 01-3.52.96 6.2 6.2 0 002.72-3.44 12.26 12.26 0 01-3.92 1.5A6.13 6.13 0 0020.52 4a6.14 6.14 0 00-6.14 6.14c0 .48.054.95.16 1.4a17.4 17.4 0 01-12.63-6.4 6.16 6.16 0 00-.83 3.08 6.13 6.13 0 002.73 5.12 6.09 6.09 0 01-2.78-.76v.08a6.14 6.14 0 004.92 6.02 6.13 6.13 0 01-2.77.1 6.15 6.15 0 005.74 4.27 12.3 12.3 0 01-7.63 2.63c-.5 0-.99-.03-1.47-.09a17.35 17.35 0 009.39 2.75c11.26 0 17.42-9.33 17.42-17.42 0-.26-.01-.52-.03-.78a12.42 12.42 0 003.04-3.16z"></path>
+                            </svg>
+                        </a>
+                        <a rel="noopener noreferrer" href="#" title="Instagram" class="flex items-center p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" class="w-5 h-5 dark:text-gray-800">
+                                <path d="M16 8a8 8 0 100 16 8 8 0 000-16zm0 13.36a5.36 5.36 0 110-10.72 5.36 5.36 0 010 10.72zm8.24-13.84a1.92 1.92 0 11-3.84 0 1.92 1.92 0 013.84 0zM32 9.36a9.67 9.67 0 00-2.64-6.72A9.67 9.67 0 0022.64 0H9.36A9.67 9.67 0 002.64 2.64 9.67 9.67 0 000 9.36v13.28a9.67 9.67 0 002.64 6.72A9.67 9.67 0 009.36 32h13.28a9.67 9.67 0 006.72-2.64A9.67 9.67 0 0032 22.64V9.36zm-3.36 13.28a6.31 6.31 0 01-1.68 4.32 6.31 6.31 0 01-4.32 1.68H9.36a6.31 6.31 0 01-4.32-1.68 6.31 6.31 0 01-1.68-4.32V9.36a6.31 6.31 0 011.68-4.32 6.31 6.31 0 014.32-1.68h13.28a6.31 6.31 0 014.32 1.68 6.31 6.31 0 011.68 4.32v13.28z"></path>
+                            </svg>
+                        </a>
+                        <a rel="noopener noreferrer" href="#" title="LinkedIn" class="flex items-center p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" class="w-5 h-5 dark:text-gray-800">
+                                <path d="M27 0H5C2.2 0 0 2.2 0 5v22c0 2.8 2.2 5 5 5h22c2.8 0 5-2.2 5-5V5c0-2.8-2.2-5-5-5zM9.4 26.4H5.8V12h3.6v14.4zM7.6 10.5C6.2 10.5 5 9.3 5 7.9S6.2 5.3 7.6 5.3 10.1 6.5 10.1 7.9c-.1 1.4-1.3 2.6-2.5 2.6zm18.8 15.9h-3.6V18c0-2-1.1-3.1-2.7-3.1-1.4 0-2.2.9-2.6 1.8-.1.3-.1.6-.1.9v8.9h-3.6c.1-14.4 0-14.4 0-14.4h3.6v2c.5-.8 1.3-2 3.2-2 2.3 0 4.1 1.5 4.1 4.7v9.7z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-6 text-sm text-center dark:text-gray-800">© 1968 Company Co. All rights reserved.</div>
+    </footer>
+
+    <script>
+        const menuButton = document.getElementById('menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
